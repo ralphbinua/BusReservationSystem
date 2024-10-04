@@ -1,0 +1,108 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #FAF7FF;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 48px;
+
+}
+
+.up-function{
+    padding-top: 150px;
+}
+
+input{
+    background-color: #F2ECFF;
+    border: 0;
+    border-radius: 2px;
+}
+
+::placeholder{
+    color: #9C9A9A;
+    font-weight:bolder;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #008CFF;
+    border: 0;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 7px;
+    padding-left: 42px;
+    padding-right: 42px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.password, .email{
+    width: 320px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.remember-forgot{
+    display: flex;
+       align-items: center;
+       margin-top: 10px;
+       font-size: 13px;
+       margin-left: 35px;
+   }
+   
+   .remember-left {
+       display: flex;
+       align-items: center;
+   }
+   
+   input[type="checkbox"] {
+       width: 13px; 
+       height: 13px; 
+       margin: 0px;
+   }
+   label {
+       margin-left: 5px;
+       color: #757070;
+   }
+.forgot-right{
+    margin-left: 85px;
+}
+
+.forgot-password, .no-account, label{
+    text-decoration: none;
+    color: #757070;
+    font-weight: bold;
+}
+
+.no-account{
+    font-size: 12px;
+}
+
+.down-function{
+    padding-top: 30px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 13px;
+}

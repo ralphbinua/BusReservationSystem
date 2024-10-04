@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+aside{
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    background-color: blue;
+}
+
+/* temporary*/
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #00ff6a;
+    border: 1px solid #ff00c8;
+    padding: 10px;
+}
+
+.dropdown li {
+    margin-bottom: 10px;
+}
+.dropdown li a {
+    color: #22009c;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background-color: #ff0000;
+}
+
+nav ul li:active .dropdown {
+    display: block;
+}

@@ -1,0 +1,24 @@
+.icons i{
+    font-size: 28px;
+}
+
+.icons .fa-square-facebook{
+    color: #3b5998;
+}
+
+.icons .fa-google{
+    color: #4285F4;
+}
+
+.icons .fa-linkedin{
+    color: #0077B5;
+}
+
+.icons a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .icons a{
+    padding-right: 10px;
+  }
